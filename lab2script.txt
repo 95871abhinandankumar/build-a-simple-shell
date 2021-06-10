@@ -1,0 +1,13 @@
+ls
+mkdir lab2temp
+echo "hello lab2"
+ls
+cd lab2temp
+cp ../file1.txt file2.txt
+cat file1.txt
+cat <file1.txt
+sleep 2 ; cat file1.txt
+sleep 2 ; echo "middle" ; cat <file1.txt
+cat file1.txt | sed p | tail -n 4
+sleep 10
+echo "done"
